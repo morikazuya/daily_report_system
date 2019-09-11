@@ -4,11 +4,11 @@
     <c:param name="content">
         <c:if test="${hasError}">
             <div id="flush_error">
-                社員番号が間違っています。
+                社員番号かパスワードが間違っています。
             </div>
         </c:if>
         <c:if test="${flush != null}">
-            <div id="flush_succes">
+            <div id="flush_success">
                 <c:out value="${flush}"></c:out>
             </div>
         </c:if>
